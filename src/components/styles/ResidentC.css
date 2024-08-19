@@ -1,5 +1,6 @@
 .resident{
     width: 250px;
+    box-shadow: 5px 5px 10px black;
     background-color: #072226;
     border: 1px solid #5555;
     border-radius: 10px;

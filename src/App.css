@@ -15,7 +15,7 @@ html{
   font-weight: 700;
 }
 body{
-  background-color: black;
+  background-color: #05292E;
   color: white;
 }
 img{
@@ -44,6 +44,14 @@ button{
   flex-direction: column;
   align-items: center;
 }
+.app__header{
+  width: 100%;
+  background-image: url(https://external-preview.redd.it/xyW2KesWKs9UD39iQifVbjYmSZ03hm_pOGtV5uIHoHw.png?width=640&crop=smart&auto=webp&s=8882c0a9c5c42d65b51c830efa678acc4094416d);
+  background-size: cover;
+  background-position: 10px;
+  background-position-x: 5px ;
+  padding-bottom: 10px;
+}
 .app__title{ 
   text-align: center;
   padding: 20px;
@@ -68,4 +76,8 @@ button{
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 20px;
+}
+.app__error{
+margin-top: 20px;
+
 }

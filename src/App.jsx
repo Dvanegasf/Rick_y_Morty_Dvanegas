@@ -33,12 +33,15 @@ console.log(inpuValue)
         isLoading ? 
           <h2 className='app__loading'>loading...</h2>
           :
-          <>      
-            <h1 className='app__title'>Rick and Morty</h1>
-            <form className='app__form' onSubmit={handleSubmit}>
+          <>     
+            <section className='app__header'>
+             <h1 className='app__title'>Rick and Morty</h1>
+              <form className='app__form' onSubmit={handleSubmit}>
               <input className='app__form-input' ref = {textinput} type="number" />
               <button className='app__form-btn'>Search</button>
             </form>
+            </section> 
+
             {
               hasError  ?
                 <h2 className='app__error'>❌ Hey! you must provide an id from 1 to 126</h2>
